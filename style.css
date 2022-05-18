@@ -36,14 +36,14 @@ body {
 .projects {
   display: flex;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   max-width: 850px;
-  margin: 2rem auto;
-  justify-content: center;
+  margin: auto;
+  justify-content: space-evenly;
 }
 
 .flexItem {
-  margin: 0px 5px;
+  max-width: 400px;
 }
 
 .flexItem:first-child {
@@ -52,7 +52,7 @@ body {
 
 table {
   background-image: linear-gradient(#2F4F4F, #f1f2f4);
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 th {
@@ -126,10 +126,6 @@ h3 {
   font-family: 'Cinzel', serif;
 }
 
-h4 {
-  font-style: italic;
-}
-
 a {
   color: #2F4F4F;
   font-size: 14px;
@@ -140,4 +136,5 @@ a {
 a:hover {
   color: #fff;
   background-color: #2F4F4F;
+  opacity: .8;
 }
