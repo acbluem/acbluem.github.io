@@ -1,3 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2F4F4F;
+  background-color: #f1f2f4;
+}
+
+header, nav, .about, .projects, footer {
+background-color: #fff;
+}
+
 p {
-  font-size: 8px;
+  font-size: 14px;
 }
