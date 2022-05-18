@@ -13,6 +13,10 @@ body {
   width: 90%;
 }
 
+.grid-item {
+  border-bottom: 1px dotted #2F4F4F;
+}
+
 .grid-item-1, .grid-item-2, .grid-item-5 {
   grid-column: 1 / span 2;
   background-color: #fff;
@@ -26,6 +30,8 @@ body {
 .projects {
   display: flex;
   flex-direction: row;
+  flex-wrap: no-wrap;
+  max-width: 800px;
   margin: 2rem auto;
   justify-content: center;
 }
@@ -41,12 +47,14 @@ body {
 table {
   background-color: #f1f2f4;
   margin: 5px;
+  border-bottom: 1px dotted #2F4F4F;
+}
+
+table th {
+  border-bottom: 1px dotted #2F4F4F;
 }
 
 table img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
 }
 
@@ -55,10 +63,15 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  border: 1px dotted #2F4F4F;
 }
 
 p {
   font-size: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 ul li {
