@@ -4,10 +4,71 @@ body {
   background-color: #f1f2f4;
 }
 
-header, nav, .about, .projects, footer {
-background-color: #fff;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+  margin: 2rem auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.grid-item-1, .grid-item-2, .grid-item-5 {
+  grid-column: 1 / span 2;
+  background-color: #fff;
+  text-align: center;
+}
+
+.grid-item-3, .grid-item-4 {
+  background-color: #fff;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem auto;
+  justify-content: center;
+}
+
+.flexItem {
+  margin-left: 0;
+}
+
+.flexItem:first-child {
+  margin: 0;
+}
+
+table {
+  background-color: #f1f2f4;
+  margin: 5px;
+}
+
+table img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 p {
   font-size: 14px;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h3, h4 {
+  text-align: center;
 }
