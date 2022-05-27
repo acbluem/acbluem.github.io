@@ -17,7 +17,7 @@ body {
 }
 
 .grid-item {
-  opacity: .9;
+  opacity: .8;
 }
 
 .grid-item-1, .grid-item-2, .grid-item-5 {
@@ -27,9 +27,6 @@ body {
 
 .grid-item-2, .grid-item-5 {
   background-color: #fff;
-}
-
-.grid-item-2, .grid-item-5 {
   padding: 5px;
 }
 
@@ -62,7 +59,7 @@ table {
 }
 
 th, td {
-  width: 60%;
+  width: 40%;
 }
 
 th {
