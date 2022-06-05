@@ -29,11 +29,10 @@ body {
 }
 
 .grid-item-2, .grid-item-5 {
-  background-color: #fff;
   padding: 5px;
 }
 
-.grid-item-3, .grid-item-4 {
+.grid-item-2, .grid-item-3, .grid-item-4, .grid-item-5 {
   background-color: #fff;
 }
 
@@ -173,6 +172,6 @@ a:hover {
   opacity: .5;
 }
 
-section:hover:not(.grid-item-1) {
+section:hover:not(.grid-item-1, .grid-item-2, .grid-item-5) {
   background-image: linear-gradient(#f1f2f4, #ded6c3);
 }
