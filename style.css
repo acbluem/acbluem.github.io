@@ -52,6 +52,13 @@ body {
 
 nav {
   font-size: 16px;
+  max-height: 23px;
+}
+
+nav img {
+  background-image: none;
+  max-width: 20px;
+  display: inline;
 }
 
 table {
@@ -61,12 +68,16 @@ table {
   table-layout: fixed;
 }
 
-th, td {
-  width: 30%;
+th+td {
+  width: auto;
 }
 
 td+td {
-  width: auto;
+  width: 70%;
+}
+td div {
+  height: 100px;
+  overflow-y: scroll;
 }
 
 th {
@@ -85,7 +96,7 @@ td {
 }
 
 table img {
-  width: 98%;
+  max-height: 150px;
 }
 
 img, p {
@@ -150,11 +161,9 @@ a {
 }
 
 a:hover {
-  color: #fff;
-  background-color: #2F4F4F;
-  opacity: .8;
+  opacity: .5;
 }
 
-section:target {
+section:hover:not(.grid-item-1) {
   background-image: linear-gradient(#f1f2f4, #ded6c3);
 }
