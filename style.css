@@ -144,8 +144,9 @@ h1 {
 
 h2 {
   color: #f1f2f4;
+  font-family: 'Tangerine', cursive;
   font-style: italic;
-  font-size: 30px;
+  font-size: 40px;
   padding: 0;
   margin: 5px;
 }
