@@ -78,6 +78,7 @@ td+td {
 #list {
   height: 155px;
   overflow-y: scroll;
+  margin-left: -20px;
 }
 
 #description {
